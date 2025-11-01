@@ -8,7 +8,7 @@ import java.util.TreeSet;
  * TreeSet is an implementation of OrderedSet which is backed by TreeMap, which implements a variant of balanced tree
  * possibly Red-Black tree or AVL tree.
  * TreeSet orders set based on natural ordering of elements or the ordering can be set by a Comparator. It offers
- * ordered iterators and ceiling() and floor() functions.
+ * ordered iterators and ceiling() and floor() functions. All operations are guaranteed to finish in O(lg n) time.
  * Source: <a href="https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/util/TreeSet.html">TreeSet - Oracle docs</a>
  */
 public class TreeSetExample {
